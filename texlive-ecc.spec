@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /fonts/ecc
+# catalog-date 2006-12-07 15:13:33 +0100
+# catalog-license lppl
+# catalog-version undef
 Name:		texlive-ecc
 Version:	20061207
 Release:	1
@@ -104,6 +110,7 @@ cm-super font bundle.
 %doc %{_texmfdistdir}/doc/fonts/ecc/copyrite
 %doc %{_texmfdistdir}/doc/fonts/ecc/liesmich
 %doc %{_texmfdistdir}/doc/fonts/ecc/readme
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -114,3 +121,5 @@ cm-super font bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
