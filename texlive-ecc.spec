@@ -111,3 +111,17 @@ cm-super font bundle.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20061207-2
++ Revision: 751317
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20061207-1
++ Revision: 718299
+- texlive-ecc
+- texlive-ecc
+- texlive-ecc
+- texlive-ecc
+
