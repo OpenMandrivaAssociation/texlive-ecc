@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-ecc
 Version:	20061207
-Release:	4
+Release:	5
 Summary:	Sources for the European Concrete fonts
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/fonts/ecc
