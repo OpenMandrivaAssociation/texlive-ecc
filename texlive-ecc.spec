@@ -5,7 +5,7 @@
 # catalog-license lppl
 # catalog-version undef
 Name:		texlive-ecc
-Version:	20170414
+Version:	20180303
 Release:	1
 Summary:	Sources for the European Concrete fonts
 Group:		Publishing
