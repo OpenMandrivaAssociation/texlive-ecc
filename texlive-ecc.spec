@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Sources for the European Concrete fonts
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/fonts/ecc
+URL:		https://www.ctan.org/tex-archive/fonts/ecc
 License:	LPPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ecc.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/ecc.doc.r%{version}.tar.xz
